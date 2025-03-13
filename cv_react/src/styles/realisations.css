@@ -1,0 +1,66 @@
+.realisations {
+  display: grid;
+  justify-items: center;
+  font-family: "Nunito Sans", Courier, monospace;
+}
+
+h1 {
+  padding-top: 50px;
+}
+
+p {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.button {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+.blue-bar {
+  background-color: #0d6efd;
+  width: 150px;
+  height: 4px;
+  margin-bottom: 50px;
+}
+
+.card {
+  margin: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .banner {
+    background-image: url("../img/banner-mobile.jpg");
+    width: 100%;
+    height: 250px;
+  }
+  .realisations__cards {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .banner {
+    background-image: url("../img/banner-tablette.jpg");
+    width: 100%;
+    height: 300px;
+  }
+  .realisations__cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .banner {
+    background-image: url("../img/banner.jpg");
+    width: 100%;
+    height: 300px;
+  }
+  .realisations__cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}

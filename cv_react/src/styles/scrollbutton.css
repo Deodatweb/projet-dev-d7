@@ -1,0 +1,27 @@
+.goTopHidden {
+  display: none;
+}
+
+.goTop {
+  position: fixed;
+  width: 60px;
+  bottom: 8%;
+  left: 93%;
+  cursor: pointer;
+  background-color: #0d6efd;
+  color: #eee;
+  border-radius: 20px;
+  border: rgba(0, 0, 0, 0);
+}
+
+.goTop:hover {
+  position: fixed;
+  width: 60px;
+  bottom: 8%;
+  left: 93%;
+  cursor: pointer;
+  background-color: #298eff;
+  color: #eee;
+  border-radius: 20px;
+  border: rgba(0, 0, 0, 0);
+}

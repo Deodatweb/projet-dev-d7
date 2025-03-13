@@ -1,0 +1,96 @@
+h4 {
+  font-weight: 600;
+  padding-top: 15px;
+  align-self: baseline;
+}
+
+h5 {
+  font-size: 1em;
+  padding-top: 20px;
+  align-self: baseline;
+}
+
+#about {
+  border-radius: 4px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 5%;
+  padding: 3%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  margin-left: 6%;
+  margin-right: 6%;
+  box-shadow: 3px 4px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about__col-1 {
+  display: grid;
+  justify-items: baseline;
+  /* max-width: 85%; */
+}
+
+.about__col-2 {
+  display: grid;
+  justify-items: baseline;
+  height: 40%;
+}
+
+.blue__bar {
+  background-color: #0d6efd;
+  width: 100%;
+  height: 2px;
+}
+
+.about__text {
+  margin-top: 2%;
+  text-align: left;
+  padding-top: 20px !important;
+  order: 3;
+}
+.about__image {
+  border-radius: 5px;
+}
+
+.progress-bar {
+  width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  #about {
+    grid-template-columns: 1fr;
+    row-gap: 5%;
+  }
+  .about__image {
+    background-image: url("../img/about.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 200px;
+    width: 100%;
+
+  }
+  .progress-bar {
+    width: 100%;
+    padding-bottom: 60px;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  #about__image {
+    background-image: url("../img/about.jpg");
+    height: 200px;
+    width: 100%;
+    justify-self: center;
+    background-size: cover;
+    background-position: center center;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  #about__image {
+    background-image: url("../img/john-doe-about.jpg");
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+  }
+}

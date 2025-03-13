@@ -1,0 +1,61 @@
+.legals {
+  display: grid;
+  justify-items: center;
+}
+
+.legals__h2 {
+  text-align: left;
+}
+.blue-bar-legals {
+  background-color: #0d6efd;
+  width: 13%;
+  height: 4px;
+  margin: 0 0 50px 0;
+}
+
+.accordion {
+  width: 90%;
+  text-align: left;
+}
+
+.accordion__contact {
+  display: grid;
+  grid-template-columns: 1fr 10fr;
+  justify-items: start;
+  padding: 20px;
+}
+
+.host {
+  display: grid;
+  grid-template-columns: 1fr 10fr;
+  text-align: left;
+  justify-items: start;
+  align-items: center;
+  padding: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  display: block;
+}
+
+@media screen and (min-width: 768px) {
+  .accordion__contact {
+    width: 40%;
+  }
+  .host {
+    width: 40%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .accordion__contact {
+    width: 20%;
+  }
+  .host {
+    width: 20%;
+  }
+}

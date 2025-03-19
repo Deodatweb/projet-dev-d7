@@ -30,12 +30,13 @@ function Legals() {
         <Accordion.Item eventKey="1">
           <Accordion.Header>Hébergeur</Accordion.Header>
           <Accordion.Body>
-            <h2 className="legals__h2">Code Sandbox</h2>
+            <h2 className="legals__h2">Always Data</h2>
             <div className="host">
-              <div className="host__adress"></div>
-              <p className="adress">Amsterdam, Pays-Bas</p>
+              <div className></div>
+              <p className="adress">91 rue du Faubourg Saint Honoré<br/>
+              75008 Paris</p>
               <FontAwesomeIcon icon={faGlobe} style={{ fontSize: '20px' }} />
-              <a href="https://codesandbox.io">https://codesandbox.io</a>
+              <a href="https://www.alwaysdata.com/fr/">www.alwaysdata.com</a>
             </div>
           </Accordion.Body>
         </Accordion.Item>
